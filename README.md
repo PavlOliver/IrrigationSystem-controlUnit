@@ -1,31 +1,31 @@
-# Control Unit – IoT zavlažovací systém
+# Control Unit – IoT Irrigation System
 
-## 📌 Popis projektu
-Riadiaca jednotka inteligentného zavlažovacieho systému vytvorená v rámci bakalárskej práce. Zariadenie zbiera environmentálne údaje zo snímačov a riadi zavlažovanie pozemku pomocou elektromagnetických ventilov.
+## 📌 Project Description
+The control unit of a smart irrigation system developed as part of a bachelor's thesis. The device collects environmental data from sensors and controls irrigation using electromagnetic valves.
 
-Riadiaca jednotka komunikuje so serverom prostredníctvom Wi-Fi siete a umožňuje lokálne ovládanie pomocou dotykového displeja.
-
----
-
-## 🎯 Funkcionalita
-
-Zariadenie zabezpečuje:
-
-### Zber dát o prostredí
-- Teplota vzduchu (AM2301)
-- Vlhkosť vzduchu (AM2301)
-- Vlhkosť pôdy (capacitive soil moisture sensor)
-
-### Ovládanie systému
-- Ovládanie zavlažovania pre 4 samostatné zóny
-- Komunikáciu so serverom cez HTTP protokol
-- Odosielanie meraných údajov na server
-- Prijímanie konfigurácie a nastavení zo servera
-- Lokálne ovládanie pomocou dotykového displeja
+The control unit communicates with the server via Wi-Fi and allows local control through a touchscreen display.
 
 ---
 
-## 🎥 Ukážky fungovania
+## 🎯 Features
 
-- [Ukážka systému 1](https://youtu.be/alzT1WcRohs)
-- [Ukážka systému 2](https://youtu.be/eRLJNQz_9us)
+The device provides:
+
+### Environmental Data Collection
+- Air temperature (AM2301)
+- Air humidity (AM2301)
+- Soil moisture (capacitive soil moisture sensor)
+
+### System Control
+- Irrigation control for 4 independent zones
+- Communication with the server via HTTP protocol
+- Sending measured data to the server
+- Receiving configuration and settings from the server
+- Local control via touchscreen display
+
+---
+
+## 🎥 Demonstration Videos
+
+- [System Demonstration 1](https://youtu.be/alzT1WcRohs)
+- [System Demonstration 2](https://youtu.be/eRLJNQz_9us)
